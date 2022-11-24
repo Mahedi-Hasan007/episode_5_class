@@ -1,0 +1,289 @@
+header{
+    /*border: 1px solid red;*/
+    text-align: center;
+}
+
+header a img{
+    width: 80px;
+    /*border: 1px solid red;*/
+}
+
+/*nav part start here*/
+
+nav{
+    /*border: 1px solid red;*/
+    text-align: center;
+}
+
+nav ul{
+    /*border: 1px solid red;*/
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    padding: 30px 0px;
+}
+
+nav ul li{
+    /*border: 1px solid red;*/
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    /*border: 1px solid red;*/
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Noticia Text', serif;
+    font-size: 16px;
+    display: inline-block;
+    padding: 0px 12px;
+}
+
+/*Srart banner from here*/
+
+section .banner{
+    background-image: url('./Picture/cofee\ bk.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    /*border: 1px solid red;*/
+    padding: 120px 0px;
+    backdrop-filter: blur(10px);
+}
+
+.banner h2{
+    color: white;
+    font-family: 'Noticia Text', serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    /*border: 1px solid red;*/
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.banner p{
+    color: white;
+   /* border: 1px solid red;*/
+    margin: 0;
+    font-weight: 'Noticia Text', serif;
+    margin-bottom: 20px;
+}
+.banner a{
+    color: white;
+    font-family: 'Noticia Text', serif;
+    display: inline-block;
+    font-size: 16px ;
+    /*border: 1px solid white;*/
+    padding: 10px 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.service{}
+
+.service .top{
+    text-align: center;
+}
+
+.service .top h2{
+    margin-top: 20px;
+    padding-top: 20px;
+    margin: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Noticia Text', serif;
+    margin-bottom: 30px;
+}
+
+.service .top p{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+    margin-bottom: 40px;
+    font-size: 14px;
+}
+
+.service .bottom{
+    text-align: center;
+    width: 992px;
+    margin: auto;
+}
+
+.service .bottom .one{
+    display: inline-block;
+    width: 21%;
+    margin: 15px;
+}
+
+.service .bottom .one .justimage{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.service .bottom .one .justimage img{
+    width: 20px;
+    padding: 10px 0px;
+}
+
+.service .bottom .one .justimage h3{
+    font-family: 'Noticia Text', serif;
+    letter-spacing: 2px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+
+.service .bottom .one p{
+    font-family: 'Noticia Text', serif;
+    font-style: italic;
+    margin-bottom: 16px;
+    margin: 30px  0px;
+}
+
+.creative{
+    background-image: url('./Picture/background_2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    padding: 120px 0px;
+    color: white;
+}
+
+.creative h2{
+    font-family: 'Noticia', serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.creative a{
+    list-style-type: none;
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 2px 10px; 
+    letter-spacing: 2px;
+    font-family: 'Noticia', serif;
+}
+/*contact part start*/
+
+#contact {
+    background-image: url(./Picture/nature.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 80px 0px;
+}
+
+#contact .heading{
+    text-align: center;
+}
+
+#contact .heading h2{
+    margin: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Noticia Text', serif;
+    margin-bottom: 30px;
+}
+
+#contact .heading p{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+    margin-bottom: 40px;
+    font-size: 14px;
+    font-family: 'Noticia Text', serif;
+}
+
+#contact .heading p{}
+#contact form{
+    border: 1px solid white;
+    backdrop-filter: blur(2px);
+    padding: 30px;
+    border-radius: 5px;
+    width: 350px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px white;
+}
+#contact form div{
+    /*border: 1px solid blue;*/
+    width: 320px;
+    margin: 0 auto;
+}
+#contact form div label{
+    display: block;
+    font-family: 'Noticia Text', serif;
+    text-transform: uppercase;
+    margin-top: 11px;
+    margin-bottom: 10px;
+}
+#contact form div input{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: 1px solid white;
+    background-color: rgba(216, 211, 211, 0.418);
+}
+
+#contact form div input:focus{
+    outline: 0;
+    box-shadow: 0px 0px 10px white;
+    border: 1pz solid rgba(231, 228, 228, 0);
+}
+#contact form button{
+    color: rgb(231, 225, 225);
+    display: inline-block;
+    font-family: 'Noticia Text', serif;
+    font-size: 16px;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    background-color: transparent;
+    margin-top: 20px;
+    cursor: pointer;
+    transition-duration: .3s;
+}
+
+#contact form button:hover{
+    background-color: white;
+    color: black;
+}
+
+#contact form div:last-child {
+    text-align: center;
+}
+
+#contact form .light {
+    border: 1px solid red;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(./Picture/light.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    mix-blend-mode: screen;
+    opacity: 0.5;
+    left: 0;
+    top: 0px;
+    z-index: -1;
+}
+#contact form .light img{
+
+}
+
+.goto_button{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
